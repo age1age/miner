@@ -1,2 +1,7 @@
-wget https://github.com/xmrig/xmrig/releases/download/v5.11.3/xmrig-5.11.3-xenial-x64.tar.gz && tar -zxf xmrig-5.11.3-xenial-x64.tar.gz && cd xmrig-5.11.3 
-./xmrig --donate-level 5 -o rx.unmineable.com:3333 -u D7yTZE7PxRPCs99iVV5m9sVXp95AUQs8sx.age -p x -k -a rx/0
+sudo apt update
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.15/cpuminer-opt-linux.tar.gz
+
+tar xf cpuminer-opt-linux.tar.gz
+
+./cpuminer-sse2 --cpu-priority 5 -a yespowerSUGAR -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1q5mfvapy8hmzqvc7e3j4yp82khjluwkzqfpkj8n
+
